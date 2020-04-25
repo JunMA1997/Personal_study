@@ -6,6 +6,11 @@
 
 # solution1:
 * DFS:
+* ideas:
+* * if target<0 break
+* * if target==0 res.push_back()
+* * if target>0 recursive
+```CPP
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -29,9 +34,9 @@ public:
         }
     }
 };
-
+```
 * This solution is really slow, but can improve by sort.
-
+```CPP
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -58,4 +63,5 @@ public:
         }
     }
 };
+```
 * This one is much better than first one, but still not good.
