@@ -1,5 +1,5 @@
 # a good solution()
-* compare to my solution, this solution use one loop and in line if to have less coding part and process time.
+* compare to my solution, this solution use one loop and in line if to have less coding part and process time. 98.82%
 ```CPP
 /**
  * Definition for singly-linked list.
@@ -44,7 +44,7 @@ public:
 };
 ```
 
-# my solution:
+# my solution: 90%
 ```CPP
 /**
  * Definition for singly-linked list.

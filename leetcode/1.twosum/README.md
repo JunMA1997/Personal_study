@@ -1,4 +1,4 @@
-# CPP solution:
+# CPP solution:95.56%
 * ideas:
 * * sort(O(nlogn)) the nums and then use two point to find the number(O(n)).finally use origin set to find the index(O(n)).
 * CODE:

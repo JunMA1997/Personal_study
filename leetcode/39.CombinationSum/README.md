@@ -4,7 +4,7 @@
 * * * All numbers (including target) will be positive integers.
 * * * The solution set must not contain duplicate combinations.
 
-# solution1:
+# solution1:97.4
 * DFS:
 * ideas:
 * * if target<0 break
