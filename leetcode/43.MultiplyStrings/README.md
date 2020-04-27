@@ -22,6 +22,6 @@ public:
 };
 ```
 # REF:https://www.cnblogs.com/grandyang/p/4395356.html
-* NOTE: high position first. 64.99
+* NOTE: low position first. 64.99 9605？ 4ms
 * if nums1.size()=m, nums2.size()=n then results.size()<=m+n
 * need addc judge
