@@ -1,0 +1,62 @@
+```cpp
+class Solution {
+public:
+    string intToRoman(int num) {
+        string res;
+        while(num>=1000){
+            num-=1000;
+            res+="M";
+        }
+        if(num>=900){
+            res+="CM";
+            num-=900;
+        }
+        if(num>=500){
+            res+="D";
+            num-=500;
+        }
+        if(num>=400){
+            res+="CD";
+            num-=400;
+        }
+        while(num>=100){
+            num-=100;
+            res+="C";
+        }
+        if(num>=90){
+            num-=90;
+            res+="XC";
+        }
+        if(num>=50){
+            num-=50;
+            res+="L";
+        }
+        if(num>=40){
+            num-=40;
+            res+="XL";
+        }
+        while(num>=10){
+            res+="X";
+            num-=10;
+        }
+        if(num==9){
+            res+="IX";
+            num-=9;
+        }
+        if(num>=5){
+            res+="V";
+            num-=5;            
+        }
+        if(num==4){
+            res+="IV";
+            num-=4;
+        }
+        while(num>0){
+            num-=1;
+            res+="I";
+        }
+        return res;
+    }
+};
+```
+# simply enum
