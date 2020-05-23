@@ -13,5 +13,5 @@ public:
 };
 ```
 # 卡塔兰数 Catalan Number
-* $C_0=1$
-* $C_{n+1}=\sum_{i=0}^{n}C_iC{n-i}$
+* $ C_0=1 $
+* $ C_{n+1}=\sum_{i=0}^{n}C_iC{n-i} $
