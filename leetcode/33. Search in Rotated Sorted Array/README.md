@@ -25,3 +25,6 @@ public:
 };
 ```
 # ref： https://www.cnblogs.com/grandyang/p/4325648.html
+* mid and right to find the order part(left or right)
+* if right part is order,  Determine if the target is on the right
+* if left part is order,  Determine if the target is on the left

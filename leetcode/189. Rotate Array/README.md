@@ -21,8 +21,8 @@ public:
         }
     }
 };
-//reverse
 ```
+# reverse
 ```cpp
 class Solution {
 public:
@@ -42,3 +42,4 @@ public:
     }
 };
 ```
+# Using Extra Array
